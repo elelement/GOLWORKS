@@ -1,0 +1,153 @@
+#controls {
+	text-align:center;
+	background-color: #6AC58C;
+	border: 4px solid #A8E2BE;
+}
+#panel {
+	float:left; 
+	width:100%;
+	margin-left: 25px;
+	margin-top: 15px;
+}
+
+#config {
+	position: absolute;
+	top: 190px;
+	display: none;
+	background: #000000;
+	border:1px solid #111111;
+	-moz-border-radius-topright: 20px;
+	-webkit-border-top-left-radius: 20px;
+	-webkit-border-top-right-radius: 0px;
+	-moz-border-radius-bottomleft: 20px;
+	-moz-border-radius-bottomright: 0px;
+	-webkit-border-bottom-left-radius: 20px;
+	-webkit-border-bottom-right-radius: 0px;
+	-moz-border-radius-bottomleft: 20px;
+	-webkit-border-bottom-left-radius: 20px;
+	width: 330px;
+	height: auto;
+	padding: 30px 30px 30px 130px;
+	filter: alpha(opacity=85);
+	opacity: .85;
+}
+
+a.trigger{
+	width: 50px;
+	position: absolute;
+	text-decoration: none;
+	top: 180px;
+	font-size: 16px;
+	letter-spacing:-1px;
+	font-family: verdana, helvetica, arial, sans-serif;
+	color:#fff;
+	padding: 20px 40px 20px 15px;
+	font-weight: 700;
+	background:#333333 url(images/plus.png) 85% 55% no-repeat;
+	border:1px solid #444444;
+	-moz-border-radius-topright: 20px;
+	-webkit-border-top-left-radius: 20px;
+	-webkit-border-top-right-radius: 0px;
+	-moz-border-radius-bottomleft: 20px;
+	-moz-border-radius-bottomright: 0px;
+	-webkit-border-bottom-left-radius: 20px;
+	-webkit-border-bottom-right-radius: 0px;
+	-moz-border-radius-bottomleft: 20px;
+	-webkit-border-bottom-left-radius: 20px;
+	display: block;
+}
+
+a.trigger:hover{
+	width: 50px;
+	position: absolute;
+	text-decoration: none;
+	top: 180px; 
+	font-size: 16px;
+	letter-spacing:-1px;
+	font-family: verdana, helvetica, arial, sans-serif;
+	color:#fff;
+	padding: 20px 40px 20px 15px;
+	font-weight: 700;
+	background:#222222 url(images/plus.png) 85% 55% no-repeat;
+	border:1px solid #444444;
+	-moz-border-radius-topright: 20px;
+	-webkit-border-top-left-radius: 20px;
+	-webkit-border-top-right-radius: 0px;
+	-moz-border-radius-bottomleft: 20px;
+	-moz-border-radius-bottomright: 0px;
+	-webkit-border-bottom-left-radius: 20px;
+	-webkit-border-bottom-right-radius: 0px;
+	-moz-border-radius-bottomleft: 20px;
+	-webkit-border-bottom-left-radius: 20px;
+	display: block;
+}
+a.active.trigger {
+	background:#222222 url(images/minus.png) 85% 55% no-repeat;
+}
+
+.shadow {
+	box-shadow: 5px 8px 5px #888;
+}
+
+div input {
+	font-family: Courier, Helvetica, Sans-Serif;
+    font-size: 14px;
+    display: block;
+	text-align: right;
+    padding: 4px;
+	background-color: #A8E2BE;
+	border: 2px solid #609473;
+	width: 50px;
+}
+
+div label {
+	display: block;
+	float: left;
+	margin-right: 13px;
+	color: #228045;
+	font: 14px/100% Courier, Helvetica, sans-serif;
+	font-weight: bold;
+	margin-top: 7px;
+}
+
+.button {
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font: 14px/100% Courier, Helvetica, sans-serif;
+	font-weight: bold;
+	padding: .5em 2em .55em;
+	text-shadow: 0 1px 1px rgba(0,0,0,.3);
+	background-color: #FFC689;
+	border: 4px solid #FFE0BE;
+	width: 120px;
+}
+.button:hover {
+	text-decoration: none;
+}
+.button:active {
+	position: relative;
+	top: 1px;
+}
+
+.orange {
+	color: #a66c2d;
+	border: 4px solid #FFE0BE;
+	background: #FFC689;
+	background: -webkit-gradient(linear, left top, from(#FFE0BE), to(#FFC689));
+	background: -moz-linear-gradient(top,  #FFE0BE,  #FFC689);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFE0BE', endColorstr='#FFC689');
+}
+.orange:hover {
+	color: #24327a;
+	background: -webkit-gradient(linear, left top, left bottom, from(#FFC689), to(#FFE0BE));
+	background: -moz-linear-gradient(top,  #FFC689,  #FFE0BE);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFC689', endColorstr='#FFE0BE');
+}
+.orange:active {
+	color: #24327a;
+	background: -webkit-gradient(linear, left top, left bottom, from(#ffd5a7), to(#FFC689));
+	background: -moz-linear-gradient(top,  #ffd5a7,  #FFC689);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd5a7', endColorstr='#FFC689');
+}
